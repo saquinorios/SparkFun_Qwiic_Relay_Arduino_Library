@@ -116,7 +116,7 @@ class Qwiic_Relay
     // whether on: 1 or off: 0;
     uint8_t getState(uint8_t relay);
 
-    // This function changes the I-squared-C address of the Qwiic RFID. The address
+    // This function changes the I-squared-C address of the Qwiic SparkFun Quad Relay. The address
     // is written to the memory location in EEPROM that determines its address.
     bool changeAddress(uint8_t newAddress);
 
